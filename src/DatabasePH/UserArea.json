@@ -1,0 +1,46 @@
+{
+    "UserData":{
+        "name": "Ricardo",
+        "level": "1",
+        "levelrank":"Bronze",
+        "levelcolor": "#cd7f32",
+        "totalPoints": "193",
+        "userClasses": [
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            },
+            {
+                "date": "05/01/2024",
+                "title": "Formas de lidar com pessoas",
+                "points": "90/100"
+            }
+        ]
+    }
+}

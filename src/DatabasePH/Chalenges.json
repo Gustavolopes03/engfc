@@ -1,0 +1,52 @@
+[
+    {
+        "id":"A01",
+        "title":"Como lidar com pessoas",
+        "img":  "/static/media/bg1.58c6bdecd7a1f3111520.png",
+        "q1": {
+            "question":"Um Cliente se exalta por um problema que não está relacionado a você. Como você lida com essa pessoa.",
+            "a1":"Fazer o que o cliente está pedindo.",
+            "a2":"Expulsa-lo do seu escritório",
+            "a3":"Discutir com o cliente até ele ir embora",
+            "a4":"Mostrar que não o problema não é de sua responsabilidade.",
+            "answer":"a4",
+            "reason":"Um cliente é um potencial de crescimento para empresa então deve ser respeitado. Porem você deve ter auto respeito e ser transparente para quando ele quiser te dominar."
+        },
+        "q2": {
+            "question":"Após um erro de um subalterno um cliente pede satisfação com você. Como você lida com a situação?",
+            "a1":"Demitir o subalterno",
+            "a2":"Pedir desculpas pelo subalterno",
+            "a3":"Chamar o subalterno para pedir perdão",
+            "a4":"Ir para a mesa do subalterno e tirar satisfação",
+            "answer":"a3",
+            "reason":"Errar é humano, porem deve se criar um motivo para que um erro não se repita."
+        },  
+        "weight": 2 ,
+        "results": ""
+    },
+    { 
+        "id":"A02",
+        "title":"teste",
+        "img":"bg3",
+        "q1": {
+            "question":"teste.",
+            "a1":"teste1",
+            "a2":"teste2",
+            "a3":"teste3",
+            "a4":"teste4",
+            "answer":"a4",
+            "reason":"teste."
+        },
+        "q2": {
+            "question":"teste?",
+            "a1":"teste1",
+            "a2":"teste2",
+            "a3":"teste3",
+            "a4":"teste4",
+            "answer":"a3",
+            "reason":"teste."
+        },  
+        "weight": 1 ,
+        "results": ""
+    }
+]
