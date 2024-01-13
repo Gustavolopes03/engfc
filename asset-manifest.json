@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Gustavolope03.github.io/static/css/main.2ebb6a16.css",
-    "main.js": "/Gustavolope03.github.io/static/js/main.73d756e4.js",
-    "static/js/787.2ae7a28a.chunk.js": "/Gustavolope03.github.io/static/js/787.2ae7a28a.chunk.js",
-    "static/media/logo1.png": "/Gustavolope03.github.io/static/media/logo1.419d1b468996b16ae781.png",
-    "static/media/logo2.png": "/Gustavolope03.github.io/static/media/logo2.ddf2edaf95ae1d7898bf.png",
-    "index.html": "/Gustavolope03.github.io/index.html",
-    "main.2ebb6a16.css.map": "/Gustavolope03.github.io/static/css/main.2ebb6a16.css.map",
-    "main.73d756e4.js.map": "/Gustavolope03.github.io/static/js/main.73d756e4.js.map",
-    "787.2ae7a28a.chunk.js.map": "/Gustavolope03.github.io/static/js/787.2ae7a28a.chunk.js.map"
+    "main.css": "/static/css/main.2ebb6a16.css",
+    "main.js": "/static/js/main.7021c444.js",
+    "static/js/787.2ae7a28a.chunk.js": "/static/js/787.2ae7a28a.chunk.js",
+    "static/media/logo1.png": "/static/media/logo1.419d1b468996b16ae781.png",
+    "static/media/logo2.png": "/static/media/logo2.ddf2edaf95ae1d7898bf.png",
+    "index.html": "/index.html",
+    "main.2ebb6a16.css.map": "/static/css/main.2ebb6a16.css.map",
+    "main.7021c444.js.map": "/static/js/main.7021c444.js.map",
+    "787.2ae7a28a.chunk.js.map": "/static/js/787.2ae7a28a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ebb6a16.css",
-    "static/js/main.73d756e4.js"
+    "static/js/main.7021c444.js"
   ]
 }
