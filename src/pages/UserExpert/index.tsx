@@ -1,6 +1,7 @@
 import logo1 from "../../Assets/logo1.png"
+import { OptionsWrapper ,Options } from "../../Components/OpionsItens"
 
-import { Page, Content, Header, Logo1, OptionsWrapper, Options } from "./styles"
+import { Page, Content, Header, Logo1 } from "./styles"
 
 export const UserExpert = () => {
     function Menu () {
@@ -17,7 +18,7 @@ export const UserExpert = () => {
                     <Options href="/userForum">Fórum</Options>
                     <Options href="/userExpert">Especialistas</Options>
                 </OptionsWrapper>
-                <h1>Onde eu to?</h1>
+                <h1>Especialistas</h1>
             </Content>
         </Page>
     )

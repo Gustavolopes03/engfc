@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const animate = 0;
+import Chalenges from "../../DatabasePH/Chalenges.json"
 
 export const Page = styled.div `
     display: grid;
@@ -40,17 +40,21 @@ export const ChalengesWrapper = styled.div `
     display: flex;
     flex-basis: auto;
 `
-export const ChalengesItens = styled.div `
+export const ChalengesItens = styled.button `
+    color: black;
     flex-basis: auto;
-`
-export const ChalengesItensImg = styled.img `
-    width: 100%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 100px;
+    border: solid;'
 `
 export const ChalengesItensTitle = styled.h3 `
     width: fit-content;
+    margin: 20px;
 `
 
-export const Options = styled.a `
+export const ChalengesOptions = styled.a `
     margin: 1vw;
     color: #000000;
+    display: none;
 `

@@ -2,14 +2,16 @@ import logo1 from "../../Assets/logo1.png"
 import bg1 from "../../Assets/bg1.png"
 import bg3 from "../../Assets/bg3.jpg"
 
-import { Page, Content, Header, Logo1, A, ChalengesWrapper, ChalengesItens, ChalengesItensTitle, ChalengesItensImg, ContentInfo } from "./styles"
+import { Page, Content, Header, Logo1, A, ChalengesWrapper, ChalengesItens, ChalengesItensTitle, ContentInfo, ChalengesOptions } from "./styles"
 import { OptionsWrapper, Options } from "../../Components/OpionsItens"
 
 import Chalenges from "../../DatabasePH/Chalenges.json"
+import styled from "styled-components"
 
 export const UserChalenges = () => {
-    function Menu () {
-        }
+    function Chalenge (item: any) { 
+        console.log(item)
+    }
     return(
         <Page>
             <Header>
@@ -27,12 +29,14 @@ export const UserChalenges = () => {
                     <ChalengesWrapper>
                             {Chalenges.map((item)=>{
                                 return (
-                                    <ChalengesItens>
-                                        <ChalengesItensTitle>
-                                            {item.title}
-                                        </ChalengesItensTitle>
-                                        <ChalengesItensImg src={item.img} />
-                                    </ChalengesItens>
+                                    <div>
+                                        <ChalengesItens type="button" onClick={Chalenge}>
+                                            <ChalengesItensTitle>
+                                                {item.title}
+                                            </ChalengesItensTitle>
+                                        </ChalengesItens>
+                                        <ChalengesOptions>{item.q1.question}</ChalengesOptions>
+                                    </div>
                                 )
                             })}
                     </ChalengesWrapper>

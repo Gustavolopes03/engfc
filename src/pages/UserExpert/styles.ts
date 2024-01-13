@@ -1,6 +1,5 @@
 import styled, { keyframes } from "styled-components"
 
-const animate = 0;
 
 export const Page = styled.div `
     display: grid;
@@ -17,13 +16,13 @@ export const Logo1 = styled.img `
 `
 
 export const Content = styled.div `
+    position: fixed;
+    display: flex;
+    top: 20vh;
+    width: 100%;
+    height: 100%;
 `
-const close = keyframes`
-left: -20vw;
-`
-const open = keyframes`
-    left: 0vw;
-`
+
 export const OptionsWrapper = styled.div `
     height: 100%;
     width: fit-content;
