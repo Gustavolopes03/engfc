@@ -10,13 +10,13 @@ import { UserExpert } from '../pages/UserExpert';
 export const Routes = () => {
   return (
     <Switch>
-      <Route path="/home" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/userArea" element={<UserArea/>}/>
-      <Route path="/userChalenges" element={<UserChalenges/>}/>
-      <Route path="/userForum" element={<UserForum/>}/>
-      <Route path="/userExpert" element={<UserExpert/>}/>
-      <Route path="*" element={<Navigate replace to="/home" />} />
+      <Route path="engfc/home" element={<Home />} />
+      <Route path="engfc/login" element={<Login />} />
+      <Route path="engfc/userArea" element={<UserArea/>}/>
+      <Route path="engfc/userChalenges" element={<UserChalenges/>}/>
+      <Route path="engfc/userForum" element={<UserForum/>}/>
+      <Route path="engfc/userExpert" element={<UserExpert/>}/>
+      <Route path="*" element={<Navigate replace to="engfc/home" />} />
     </Switch>
   );
 };
